@@ -37,8 +37,8 @@ for source in \
   https://github.com/affaan-m/ECC.git \
   latent-spaces/brag; do
   claude plugin marketplace add "$source" >/dev/null 2>&1 \
-    && echo "  added  $source" \
-    || echo "  keep   $source (already added, or failed: run 'claude plugin marketplace add $source' to see why)"
+    && echo "  ok     $source" \
+    || echo "  FAILED $source (run 'claude plugin marketplace add $source' to see why)"
 done
 
 echo "Plugins"
