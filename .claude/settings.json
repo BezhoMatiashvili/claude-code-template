@@ -1,0 +1,21 @@
+{
+  "attribution": { "commit": "", "pr": "", "sessionUrl": false },
+  "enabledMcpjsonServers": ["playwright"],
+  "extraKnownMarketplaces": {
+    "everything-claude-code": {
+      "source": { "source": "github", "repo": "worldflowai/everything-claude-code" }
+    },
+    "ecc": {
+      "source": { "source": "git", "url": "https://github.com/affaan-m/ECC.git" }
+    },
+    "brag": {
+      "source": { "source": "github", "repo": "latent-spaces/brag" }
+    }
+  },
+  "enabledPlugins": {
+    "security-guidance@claude-plugins-official": true,
+    "everything-claude-code@everything-claude-code": true,
+    "ecc@ecc": true,
+    "brag@brag": true
+  }
+}

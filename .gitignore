@@ -1,0 +1,19 @@
+# Secrets and personal overrides
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Common build and dependency output
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
